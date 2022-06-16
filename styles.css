@@ -1,9 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto';
+}
+
+
 nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
     min-height: 9vh;
-    background-color: aqua;
+    background-color: #1f2937;
     font-family: 'Roboto';
+    color: #fff;
+}
 
+h3 {
+    padding: 20px;
+
+
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 65%;
+    list-style: none;
+}
+
+.container {
+    display: flex;
+    background-color: #8d99ae;
+    padding: 200px;
+    ;
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 10px;
+    color: #fff;
+    padding: 20px;
+    margin: 5px;
 }
