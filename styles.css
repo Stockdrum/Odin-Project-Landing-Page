@@ -37,7 +37,7 @@ h1 {
     list-style: none;
 }
 
-.container {
+.heroleft {
     display: flex;
     background-color: #8d99ae;
     padding: 150px;
@@ -53,18 +53,20 @@ button {
     margin-top: 50px;
 }
 
-.container2 {
-    padding: 100px;
-    display: flex;
-    background-color: #f9faf8;
-    flex-wrap: wrap;
-
-}
-
 h2 {
     display: flex;
-    text-align: center
+    text-align: center;
+    justify-content: center;
 }
+
+.container2 {
+    padding: 150px;
+    display: flex;
+    background-color: #f9faf8;
+
+}
+
+
 
 .box {
     color: #fff;
@@ -75,4 +77,27 @@ h2 {
     margin: 40px;
     border-radius: 10px;
     border: black solid;
+    justify-content: center;
+    text-align: center;
+}
+
+.container3 {
+    display: flex;
+    padding: 100px 50px;
+    background-color: #e5e7eb;
+    font-weight: bold;
+    font-size: 36px;
+    font-style: italic;
+    justify-content: center;
+}
+
+.container4 {
+    display: flex;
+    background-color: #f9faf8;
+}
+
+#flexbox {
+    display: flex;
+    padding: 40px;
+    margin: 20px 20px;
 }
