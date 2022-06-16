@@ -37,11 +37,33 @@ h1 {
     list-style: none;
 }
 
-.heroleft {
+#leftnright {
+    display: flex;
+    background-color: #8d99ae;
+    gap: 20px;
+}
+
+.left {
     display: flex;
     background-color: #8d99ae;
     padding: 150px;
     flex-wrap: wrap;
+    width: 70%;
+
+}
+
+.right {
+    display: flex;
+    padding: 100px;
+    justify-content: right;
+
+}
+
+#ice {
+    height: 100%;
+    width: 50%;
+    border-radius: 5px;
+    box-shadow: gray 0 0 13px;
 
 }
 
@@ -51,6 +73,7 @@ button {
     color: #fff;
     padding: 20px;
     margin-top: 50px;
+    font-size: 20px
 }
 
 h2 {
@@ -59,20 +82,21 @@ h2 {
     justify-content: center;
 }
 
+
 .container2 {
-    padding: 150px;
     display: flex;
+    padding: 130px;
     background-color: #f9faf8;
+    justify-content: space-around;
+    flex-direction: row;
 
 }
-
-
 
 .box {
     color: #fff;
     background-color: #3882f6;
-    width: 80px;
-    height: 80px;
+    width: 150px;
+    height: 120px;
     line-height: 75px;
     margin: 40px;
     border-radius: 10px;
@@ -85,7 +109,7 @@ h2 {
     display: flex;
     padding: 100px 50px;
     background-color: #e5e7eb;
-    font-weight: bold;
+    font-weight: lighter;
     font-size: 36px;
     font-style: italic;
     justify-content: center;
@@ -94,10 +118,23 @@ h2 {
 .container4 {
     display: flex;
     background-color: #f9faf8;
+    justify-content: center;
+    padding: 20px;
+}
+
+h3 {
+    color: #e5e7eb;
+    margin: 20px;
+    font-size: 38px;
+
 }
 
 #flexbox {
+
+    border-radius: 7px;
+    background-color: #8d99ae;
     display: flex;
     padding: 40px;
-    margin: 20px 20px;
+    margin: 40px;
+    flex-wrap: wrap;
 }
