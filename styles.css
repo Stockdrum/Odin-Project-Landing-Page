@@ -23,7 +23,7 @@ nav {
 
 h1 {
     color: #f9faf8;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     font-weight: bold;
     font-size: 48px;
 }
@@ -46,7 +46,7 @@ h1 {
 .left {
     display: flex;
     background-color: #8d99ae;
-    padding: 100px;
+    padding: 50px;
     flex-wrap: wrap;
     width: 70%;
     margin-left: 60px;
@@ -65,11 +65,16 @@ h1 {
     width: 50%;
     border-radius: 5px;
     box-shadow: gray 0 0 13px;
-    margin-top: 50px;
+    margin: 50px;
 
 }
 
-button#first {
+span {
+    margin-left: 1400px;
+    font-weight: 900;
+}
+
+#first {
     background-color: #3882f6;
     border-radius: 10px;
     color: #fff;
@@ -81,13 +86,16 @@ button#first {
 }
 
 button {
-    padding: 10px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 5px;
     margin-top: 50px;
     font-size: 15px;
     justify-content: center;
     text-align: center;
-    background-color: #3882f6;
-    color: #fff
+    width: 80%;
+
 }
 
 h2 {
@@ -99,39 +107,51 @@ h2 {
 }
 
 p {
+    justify-content: left;
+    text-align: left;
+}
+
+
+#bottom {
+    display: inline;
     margin: auto;
 }
 
 .container2 {
 
     display: flex;
-    padding: 80px;
+    padding: 40px;
     background-color: #f9faf8;
     flex-direction: column;
+
 }
 
 .boxes {
-
     display: flex;
     flex-direction: row;
     justify-content: center;
-    text-align: center;
+    gap: 20px;
+    padding: 30px;
 }
+
 
 
 
 .box {
+    display: flex;
+    flex-direction: row;
     color: black;
     background-color: #3882f6;
-    width: 150px;
-    height: 150px;
-    line-height: 75px;
-    margin: 30px;
+    width: 100px;
+    height: 30px;
+    padding: 40px;
     border-radius: 10px;
     border: black solid;
     justify-content: center;
     text-align: center;
+
 }
+
 
 .container3 {
     display: flex;
@@ -151,21 +171,35 @@ p {
     padding: 20px;
 }
 
-h3 {
-    color: #e5e7eb;
-    margin: 20px;
-    font-size: 38px;
 
-}
 
 #flexbox {
     border-radius: 7px;
     background-color: #8d99ae;
-    display: flex;
-    padding: 50px;
+    padding: 10px;
     margin: 40px;
-    flex-wrap: wrap;
+    width: 50%;
+    justify-content: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+    flex-flow: row wrap;
+
 }
+
+#text {
+    padding: 40px;
+}
+
+h3 {
+    display: flex;
+    color: #e5e7eb;
+    font-size: 40px;
+    text-align: left;
+    justify-content: left;
+}
+
 
 footer {
     display: flex;
@@ -175,4 +209,9 @@ footer {
     background-color: #1f2937;
     font-family: 'Roboto';
     color: #fff;
+}
+
+#signup {
+    padding: 20px;
+    width: 20%;
 }
