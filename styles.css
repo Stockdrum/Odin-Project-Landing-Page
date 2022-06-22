@@ -46,10 +46,9 @@ h1 {
 .left {
     display: flex;
     background-color: #8d99ae;
-    padding: 50px;
+    padding: 70px;
     flex-wrap: wrap;
-    width: 70%;
-    margin-left: 60px;
+    margin-left: 100px;
 
 }
 
@@ -78,25 +77,12 @@ span {
     background-color: #3882f6;
     border-radius: 10px;
     color: #fff;
-    padding: 10px 5px;
-    margin-top: 50px;
     font-size: 15px;
     justify-content: center;
     text-align: center;
 }
 
-button {
-    background-color: #3882f6;
-    border-radius: 10px;
-    color: #fff;
-    padding: 10px 5px;
-    margin-top: 50px;
-    font-size: 15px;
-    justify-content: center;
-    text-align: center;
-    width: 80%;
 
-}
 
 h2 {
     display: flex;
@@ -120,18 +106,19 @@ p {
 .container2 {
 
     display: flex;
+    flex-direction: column;
     padding: 40px;
     background-color: #f9faf8;
-    flex-direction: column;
+
 
 }
 
 .boxes {
+    justify-content: center;
+    padding: 30px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    gap: 20px;
-    padding: 30px;
+
 }
 
 
@@ -149,6 +136,7 @@ p {
     border: black solid;
     justify-content: center;
     text-align: center;
+
 
 }
 
@@ -214,4 +202,17 @@ footer {
 #signup {
     padding: 20px;
     width: 20%;
+    background-color: #3882f6;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 15px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.text {
+    padding: 20px;
+    bottom: 0;
+    left: 20;
 }
